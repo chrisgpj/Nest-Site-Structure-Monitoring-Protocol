@@ -1,0 +1,57 @@
+# Information System Overview
+
+## A Note on The Concept of Layers
+
+A 'Layer' is some piece of information that occupies a unique place in the information system. This space can be thought of as a multidimensional plane, with the dimensions being the real-world dimensions that we interact with, rather than the dimensions that may be suggested by variable in the data set. The definition of a habitat structure are focused in space, and fairly stable in time. Notes on the use of the habitat structre are more time-sensitive (used one month, and not the next!), and also respond sharply to time (fledglings are off today!). The use of the habitat structure is really, on a time scale, nested _within_ the habitat strucutre - this is one way of distinguishing a layer. Notes on activity of wildlife at a site are similar in how they are instantaneous in time and constantly in flux, but they pertain to a spatial scale which is much larger than habitat structres. This is another way of distinguishing a layer. Layers can be far more abstract, but that discussion is not one I am capable of, or one that can be expounded here in any case.
+
+## Gerneral Considerations
+
+- Compare and reference nest recording scheme:
+https://www.birdlife.org.au/projects/atlas-and-birdata/nest-record-scheme
+- What is measured is a different question to how it is measured.
+- What is linked to the structure, what is not linked or nebulously linked?
+  - To narrow down, or broaden out?
+  - How will cross-reference be achieved?
+- What things are static for the unit of observation, what are things that may change
+  - Is this different to observations being regularly repeated?
+- The unit of observation is the habitat structure, but there are also units of observations which are visits to sites and nest box locations
+- What is the most genral scale for observation and what is the most specific scale? see notes in 'Layers'.
+- What of borderlands?
+
+## Layer Considerations
+
+- Sites and areas
+- Habitat structure and its data
+-  Observations of the habitat structure and it's occupancy at a point in time
+- Observations of wildlife which may be deemed relevant to different scales, inclding site and habitat structure.
+
+## Layer Information Fields
+
+### Sites and areas
+- Description of site to clarify location
+-  Representative group
+- Types of habitats present
+- [note that overview of projects not needed for nest boxes as this system _is_ the overview.]
+
+### Habitat Strucutre
+
+- Unique Name (also indicated strucutre type)
+- Date 'installed'
+- Date first observed
+- Informal Notes on past use (standardised terminology)
+- Cross reference to past habitat strucutre Unique Name
+- History (standardised terminology)
+- Key photo and other photos - Y/N once syncronised.
+- ~~Dated notes of use signs by wildlife(standardised language)~~
+- Dated notes of condition of stucutre(standardised language) [1]
+
+### Habitat structure Occupancy
+
+- date, time
+- Survey type (stanardised terminology)
+- Signs of use (absence also noted)
+- Occupancy (absence also noted)
+- Activity, including breeding behaviour ('no further signs', 'not surveyed', and 'ambiguous' noted)
+
+## Notes
+[1] Need prompts to keep these! Possibly a meta-layer is needed to coordinate observation schedules?
