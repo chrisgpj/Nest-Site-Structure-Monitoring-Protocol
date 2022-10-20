@@ -1,4 +1,0 @@
-# Meta Dat
-
-## Habitat Structures
-
