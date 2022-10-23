@@ -6,4 +6,8 @@ The files in this repository are a small subset of those that I have been workin
 
 For some broad thoughts on the scope and principles of the protocol, and thereby the entire project, please see the folder "Work on the Protocol" and the file "Broad Thoughts and Principles.md"
 
-- Chris, 20 October, 2022
+~ Chris, 20 October, 2022
+
+Some meta-data notes have been added! The approach may be very... **styled**, for better or worse.
+
+~ Chris, 23 October, 2022
