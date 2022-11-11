@@ -1,47 +1,55 @@
 # Meta-data
 
-## Table of Contents
-- [Meta-data](#meta-data)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Some Background Reading for this Document](#some-background-reading-for-this-document)
-  - [Priority Variables](#priority-variables)
-    - [Structure Layer](#structure-layer)
-    - [Survey Layer](#survey-layer)
-      - [Actual Survey Meta-Data](#actual-survey-meta-data)
-  - [**nest-site or Structure Type**](#nest-site-or-structure-type)
-    - [Survey Layer: Long Term](#survey-layer-long-term)
-  - [Notes](#notes)
-
 ## Introduction
-This document outlines what each variable means and the way it should be filled out if it were hypothetically on a data-sheet in front of you — or at least it tries to make a start on this task.
+This document
+- Introduces the main components of the recording system for the protocol, and
+-  outlines what each variable means and the way it should be filled out if it were hypothetically on a data-sheet in front of you — or at least it tries to make a start on this task.
 
-This document was begin in October 2022 and is likely to be constantly updated for quite some time.
+It does not yet discuss the reasoning or prioritisation of variables.
 
----
-## Some Background Reading for this Document
 The meta-data was written in October 2022, and I am adding to it in November 2022 as I run field-trials.
 
 I have been writing the meta-data with a focus on the information and concepts, rather than getting to a set data-sheet. In fact, it is my goal that this protocol can be entirely knowledge-based rather than infrastructure-based. What I mean is that, given a good knowledge of the concepts, one could do a good job at surveying with nothing but a blank notebook. Data-sheets could definitely help with more detailed recording, but I feel that the crux of what I am tying to achieve is in how the information ties together, rather than in any one variable.
 
-The concept of layers is used in the data-structure of this protocol. Do not worry if mention of that does not make sense on its own: the idea of layers in this protocol needs to be written and explained at some point, not to mentioned trailed and reviewed.
-
-The meta-data is extremely incomplete. The first section ('Priority Variables') is the things that I thought might be important to get squared up first. It is notable that these do not include variables like nest-box material, or tree-hollow height. Instead, I believe the foundations are in being able to identify each nest-site properly, and knowing when it is time to check on it for occupancy. I hope that more sophisticated measurements can be built on the foundations here.
+The meta-data is extremely incomplete. The first things I added what I considered to be priority variables. One definition of these is ` the things that cannot be easily reconstructed if not recorded fairly soon'. It is notable that these do not include variables like nest-box material, or tree-hollow height. Instead, I believe the foundations are in being able to identify each nest-site properly, and knowing when it is time to check on it for occupancy. The approach is that good observation is the foundation upon which complex information is built, so to progress, we must first be clear when and how things are observed. I hope that more sophisticated measurements can be built on the foundations here.
 
 Things in square brackets are comments from me to you.
 
 ~ Chris
 
----
-## Priority Variables
-The guiding question behind this section is "What cannot be easily reconstructed if it is not recorded fairly soon?" An example is the date of installation. That is easy to remember if it was yesterday, but harder if it was three weeks ago and during a holiday period. Another is identity: you saw a lorikeet here four weeks ago, but which of these ten identical boxes was it in? One can usually remember something like that, but it is bad practice to leave it unrecorded. Contrastingly, the height of a nest-box is stable, unless an action is taken to change it, or it falls down: such changes are a much more distinct event than the passage of time.
+## Main Components of the Protocol
+This protocol has a few different recording layers. For example, surveys of bird activity are a different layer to the characteristics of a tree-hollow. The layers came about from contemplating the different spatial and temporal scales of observations. Tree-hollows are fairly stable over time, with some structures being used by different species over the years. Bird activity, however, is more dynamic and changes from moment-to-moment, meaning that observations are only accurate for a small time-frame. Splitting up recording into layers helps in navigating the characteristics of different observations. I have chosen this approach because I want the protocol to be flexible and modular. The layers can be thought of as the titles to pages that one might keep in notebook.
 
-~ Chris
+In this section, each layer is discussed with extreme brevity, and the way they are connected is discussed. In the next section some variables in each layer are specified. Where there are many options for recording, you may be directed to an appendix.
+
+### Nest-Site Structure
+- Records information about individual nest-site structures
+- Includes data on the nest-site itself, the record keeping history, and the use of the nest-site in each recording period.
+- Each record of nest-site contains some base-line information, but can be extended to include records of use, as well as more detailed measurement. If there is lots of use, the record may become very long, and need to be linked across pages.
+- The structure is only defined as a new one when some significant event takes place, such as a change in the branch order or a hollow.
+
+### Meta-Structures and Proto-Structures
+- This layer pertains to the structures that the individual nest-sites are nested within. An example is a tree.
+- It allows observations on a structure that has several nest sites. For instance, a fire might affect a tree, and it may be best to record that information for the tree if none of the nest-sites appear directly altered.
+- Proto-structures can also be noted here (although there is no reason why some might not be in the nest-site structure layer, as well). An example of a proto-structure is a tree that has been infected with fungus.
+
+### Sites
+- This layer pertain to a more general location. It allows observations on habitat, such as fire, to be recorded.
+- It is also an important concept for recording some types of activity that cannot be traced to a particular nest-site. An example is an abundance of possums at night in a park.
+
+### Survey
+- This layer is for recording observations of fauna in real-time. It contains surveys specified in time, place, and methodology. The observations within each survey reference a nest-site structure, a meta-structure, or a site.
+- Surveys are the basis for all understanding of nest-site use. They are the evidence upon which the knowledge of occupancy or breeding activity is founded. Therefore, this layer exists to give observations the emphasis that they use. This is in contrast to entering conclusions about occupancy into the data straight away.
+
+### Schedule
+- The schedule is an are abstract layers that help to consider survey quality in the long-term.
+- The index contains a list of the structures within each site, and a list of survey efforts. 
+- There may be some degree of cross-referencing in the layers themselves, depending on how they are being kept.
 
 ---
-### Structure Layer
+## Structure Layer
 **Nest-site Structure Name**<br>
-This is recommended because it helps to organise and enhance the other variables.
+This is variable identifies nest-sites and their structures in a structured way that encourages customised names but reduces the chance of double-up, and allows nest-sites to be easily grouped by location.
 
 Syntax:<br>
 _Postcode.Site.*TreeName.+NestSiteName-Type_
@@ -54,18 +62,38 @@ _Postcode.Site.*TreeName.+NestSiteName-Type_
 - TreeName should also aim to be unique.
 - It seems likely that if people are working independently, there will be double-up on NestSiteName. This is the reason why I initially thought of this address-like naming system. So, while one should try to keep names unique, the only really critical point is that there are no two identical 'addresses'.
 - For all of these names, I use Camel Case. This is where all words start with a capital, and there are no spaces. Therefore, 'Blue Gum Track' becomes 'BlueGumTrack', or if you choose to use abbreviations in a name you might say 'BGTrack'.
-- Numbers are not necessary but they are useful and there is no reason not to use them aside from personal preference for memorable, descriptive names.
+- Numbers are not necessary but they are useful and there is no reason not to use them aside from personal preference for descriptive names.
 
 A surveyor may choose to record the site at the top of their survey-notes, and then one need only write: <br>
 _— +NestSiteName_
 
+Nest-Site Types:
+- TH = Tree Hollow
+- NB = Nest-Box
+- AS = Artificial Structures that are not nest-boxes
+- GF = Geological Feature
+- BW = Burrow. [It can also mean0` Barrow Wight'. Please see the notes of Barrow Wights.]
+
+A Type can also be appended to the meta-structure at any point that is appropriate:
+- T = Tree
+- AS = Artificial Structure
+- GF = Geological Feature
+- E = Earth
+
+Some features, such as burrows, are not nest-site structures of interest in the same way that tree-hollows are, but they are included in the context of some species using these different kinds of structure.
+
+Site Name:
+- Often a property name. In this case it is usually nested within post-code
+- If the site is a large reserve, then the post-code may come afterwards. This indicates that the site may span multiple post-codes, and that the post code is given only to eliminate confusion with other locations of the same name. Recall that the idea is to prevent replicas of `addresses' and to be descriptive — there is actually a bit of room to work within that.
+- A secondary site name may be introduced if it is felt useful E.g. `NorthEast'. The asterisk and the plus-sign exist to clarify when the name is referring to a specific structure, allowing people to communicate accurately without needing a data-field on their sheet.
+
 **Location**<br>
-- GPS (Global Positioning System) coordinates — Latitude and Longitude [1] to _six decimal places_. The coordiante system needs clarification. What-three-words may be used as an add-on but not a replacement. If coordinates are unavailable, two things are necessary: a written description to find location, and either a photo or sufficient sketch (see 'Identity' variable).
+- GPS (Global Positioning System) coordinates — Latitude and Longitude [1] to _six decimal places_. The coordinate system needs clarification. What-three-words may be used as an add-on but not a replacement. If coordinates are unavailable, two things are necessary: a written description to find location, and either a photo or sufficient sketch (see 'Identity' variable).
 
 **Identity**<br>
-- Identifying photos of nest-site structure, with surrounding context so that similar strucutres can be distinguished from each other, and the nest-site can be found easily in the environemtn.
+- Identifying photos of nest-site structure, with surrounding context so that similar structures can be distinguished from each other, and the nest-site can be found easily in the environment.
 - Other photos at discretion. This also relates to condition and signs of wear.
-- If photos are unavailable, a sufficient description and sketch must be included. The test for sufficiency is replicability: people familair with the protocol but otherwise niave to the nest-sites must be able to find them.
+- If photos are unavailable, a sufficient description and sketch must be included. The test for sufficiency is replicability: people familiar with the protocol but otherwise naive to the nest-sites must be able to find them.
 
 **Date of First Observation**<br>
 - Given to the day. [2]
@@ -76,18 +104,20 @@ This is the entry-point of the observations into the protocol. The default is th
 [Incomplete: but see 'Date of First Observation' variable]
 
 **Date of Installation**<br>
-- The date that the structure came into existence in it's current form and locale. 
+- The date that the structure came into existence in its current form and locale. 
 - Given to whatever accuracy is possible.
 - This variable may be assimilated into 'Structure History'
  
-[The mechanism for deciding when a strucutre 'comes into existence' is partly explored in the essay called 'Broad Thoughts and Principles'. However, this will eventually be discussed in all the required detail in it's own appendix.]
+[The mechanism for deciding when a structure 'comes into existence' is partly explored in the essay called 'Broad Thoughts and Principles'. However, this will eventually be discussed in all the required detail in its own appendix.]
 
 **Structre History**<br>
-- Link to past strucutres
-- Record of any interesting fixes, minor improvements, donwn-time, etc.
+- Link to past structures
+- Record of any interesting fixes, minor improvements, down-time, etc.
+
+
 
 ---
-### Survey Layer
+## Survey Layer
 
 Surveying is where the valuable observations are, informing us about the ecological interactions involving the nest-sites. In many ways, the protocol is just a framework for making sure that observations are organised and can be leveraged as much as possible.
 
@@ -146,20 +176,17 @@ Example:
 >   - +MicroBatSpout1-H       Micro-bat emerged.  [this is a new chance discovery: that is the watch was changed from the holllow to the whole tree]
 >   - +TallPossum-H   Possum with joey on back emerged. Joey now 1/2 length of mother.
 
-#### Actual Survey Meta-Data
+### Actual Survey Meta-Data
 
 The way surveys are being coordinated is discussed above. However, one needs to know what to write on a blank piece of paper. These variable are the ones you write.
 
 **Survey Type** <br>
 This is the survey type as outlined above. Observations are nested in survey type.
 
-****
-
-**nest-site or Structure Type**
 ---
-### Survey Layer: Long Term
+### Schedule Layer
 
-This layer is iscussed above, too. It is abstract because its time dimension is longer than the actual survey efforts. The survey effort it describes is the frequency and consistency of effort across long time periods, such as a season.
+This layer is discussed above, too. It is abstract because its time dimension is longer than the actual survey efforts. The survey effort it describes is the frequency and consistency of effort across long time periods, such as a season.
 
 Each survey effort results in a type of check on a nest-site and the date. If the goal is to survey a certain hollow monthly, then the Long term layer might look something like this:
 
@@ -172,14 +199,14 @@ Aug: Y , Sep: Y , Oct: Y , Nov: &emsp; , Dec:&emsp;
 >   -  +TallPossum-H      Aug: Y , Sep: Y , Oct: Y , Nov: &emsp; , Dec:&emsp;
 >    -  +MicroBatSpout1-H      N/A —  Oct: Y , Nov: &emsp; , Dec:&emsp;
 
-This sort of thing is very rigorous and I am still exploring how the best way to coordinate these long-term efforts are. The question is: what tools are necessary to make it run smoothly? I am used to cross-indexing notes by hand but other might find it awkward.
+This sort of thing is very rigorous, and I am still exploring how the best way to coordinate these long-term efforts are. The question is: what tools are necessary to make it run smoothly? I am used to cross-indexing notes by hand, but others might find it awkward.
 
 ---
 
 ---
 ## Notes
-[1] I prefer lattitude and longitude outside of scientific survey teams, because on many occassions where Eastings and Northings have been used there have been translation issues. I have even had to deal with botched gps data because of the conversion betwen these two, and that mistake originated from within an institution.
+[1] I prefer lattitude and longitude outside of scientific survey teams, because on many occasions where Eastings and Northings have been used, there have been translation issues. I have even had to deal with botched GPS data because of the conversion between these two, and that mistake originated from within an institution.
 
 [2] At no point anywhere in the protocol can the date be written in numbers and include the month before the day.
 
-[3] The ability to place auxillary notes that pertain to tree-hollows in the protocol is one of my goals.
+[3] The ability to place auxiliary notes that pertain to tree-hollows in the protocol is one of my goals.
