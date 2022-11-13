@@ -227,14 +227,56 @@ This sort of thing is very rigorous, and I am still exploring how the best way t
 These variables are the characteristics and measurements for tree-hollows.
 
 ### Hollow Size
+The Hollow size refers to the _largest_ entrance.
+
 If the surveyor is not sure, prefix the note with a question mark in square brackets.
 - Small = 
 - medium =
 - large = 
 - huge = 
-  
+
+If possible, surveyors are encouraged to measure to 0.5 cm resolution. [Even having a few nest-sites with more detailed measurements around the place would help people gain a sense of reference.] Two models of entrance size are required. One is needed for roughly circular openings. These can be modelled by the shortest widths (the constraining distance), and then the width perpendicular to this; if the entrance is round you can't go wrong. The second model is needed for fissure-like entrances. The smallest width is not constraining for these, so instead one takes the widest part of the fissure and draws an imaginary ovular entrance over it. The shortest width of that imaginary entrance is the constraining width; the second measurement is the length of the fissure.
+
+[the above needs consultation]
+
 ### Height
 
+Measured to 0.5 m resolution. Height pertains to the entrance of the hollow.
+
+The variable is affected by multiple entrances.
+
+The height is given for the lowest entrance of each size class, but only when the smaller entrance is below a bigger one. If there were many entrances, but the biggest one was the lowest, then only that entrance height would be needed.
+
+### Number of entrances
+
+The 'number of entrances' could pertain to the number large enough for the occupant. However, I am not comfortable with this as a measure, because it can change if the occupant changes, and this is something that could happen within one season. Therefore, the number of entrances for each size class is given. If many, use >3.
+
+### Draughtiness
+
+This reflects the openings in the hollow that do not feasibly act as entrances. It is either Not significant, Moderate, or Severe. This pertains to the structure of the whole of the branch that appears to be where the hollow is located. Most hollows that people observe are 'Not significant'.
+
+### Dead or alive.
+
+This pertains to the whole of the branch that appears to be where the hollow is located. If the branch is alive: Alive, if the branch is dead: Dead, if the branch is partly dead, then go by the condition at one metre down from the largest hollow entrance.
+
+### Branch Order
+
+This pertains to the branch that contains the entrance to the hollow.
+- 0 = ground-level opening to trunk, lignotuber, or unspecified cavity created by tree
+- 1 = The primary trunk
+- 2 = secondary branch
+- etc.
+
+This variable is informed by split trunks
+
+### Trunk split
+
+This refers to the height above the ground at which the primary trunk splits into secondary branches.
+
+- Mallee = mallee habit
+- Very Low = <0.5 m
+- Low = <1.5 m
+- High = >1.5 m
 
 ---
 ## Notes
