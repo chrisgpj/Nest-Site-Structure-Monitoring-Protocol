@@ -126,6 +126,8 @@ This is a group of variables, the makeup of which is determined by what type of 
 ---
 ## Survey Layer
 
+### Preliminary Notes
+
 Surveying is where the valuable observations are, informing us about the ecological interactions involving the nest-sites. In many ways, the protocol is just a framework for making sure that observations are organised and can be leveraged as much as possible.
 
 Even though occupancy and breeding activity are things that one might be most interested in, such variables can be abstract. I have written elsewhere on the idea that something like occupation is a _summary_ of observations. Without emphasising the importance of the observations, the confidence of all the other information in the protocol is undermined.
@@ -153,7 +155,7 @@ Secondly, I suggest that there is a mechanism for coordinating a monitoring sche
 
 In suggesting the above, I am trying to create a sort of 'research-grade' status (C.f. iNaturalist) for each nest-site for each time-period. I am wary that it will suffer from too much complexity, or fall into the trap being too demanding. So, I am eager for new ideas, and especially suggestions for how people can be empowered to share amongst the community which places that need more attention.
 
-## Survey Type Definition<br>
+### Survey Type Definition<br>
 Each survey has a few basic bits of infortmation, such as site, data, and time. The following are some ideas for the types of surveys:
 - **Walk-through**: A minimal survey effort based on being present more than anything else. List nest-sites observed.
 - **Watch**: A concerted effort to watch one or more nest-sites or structures (which are listed) for a little longer. Start and end time noted. May be nested within other survey types. Best done at dusk or dawn.
@@ -194,7 +196,7 @@ This is the survey type as outlined above. Observations are nested in survey typ
 - **Start Time and End Time**
 - **Location**
 
-### Actual ObservatioN Meta-Data
+### Actual Observation Meta-Data
 
 Now that the survey type has been established, you make observations within that:
 - **Structure ID**
@@ -204,9 +206,9 @@ Now that the survey type has been established, you make observations within that
     *BigCreek.+Elbow1-H: Watch, 7.10 pm - 7.20 pm: No Activity.
 
 ---
-### Schedule Layer
+## Schedule Layer
 
-This layer is discussed above, too. It is abstract because its time dimension is longer than the actual survey efforts. The survey effort it describes is the frequency and consistency of effort across long time periods, such as a season.
+This layer is abstract because its time dimension is longer than the actual survey efforts. The survey effort it describes is the frequency and consistency of effort across long time periods, such as a season.
 
 Each survey effort results in a type of check on a nest-site and the date. If the goal is to survey a certain hollow monthly, then the Long term layer might look something like this:
 
@@ -222,9 +224,11 @@ Aug: Y , Sep: Y , Oct: Y , Nov: &emsp; , Dec:&emsp;
 This sort of thing is very rigorous, and I am still exploring how the best way to coordinate these long-term efforts are. The question is: what tools are necessary to make it run smoothly? I am used to cross-indexing notes by hand, but others might find it awkward.
 
 ---
-## Appendix A: Structure Layer data for Tree Hollows
+## Appendix A: Structure Layer: Nest-Site Measurements and Characteristics: data for Tree Hollows
 
 These variables are the characteristics and measurements for tree-hollows.
+
+[Important: I have been thinking about the problem of measurements changing due to the occupant. I am uncomfortable about this, because how does one assess an unused hollow? However, to my knowledge, no-one has been mad enough to do something like relay the height of every single entrance of each size class, except for myself (I have actually done this in significant quantity; I have not only written about it). So, some things need to be simplified. Probably, I should go over this and just say 'go by the biggest entrance — entrance size is so highly-selected that this makes sense'.]
 
 ### Hollow Size
 The Hollow size refers to the _largest_ entrance.
