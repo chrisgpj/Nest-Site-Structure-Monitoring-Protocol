@@ -249,7 +249,7 @@ For an accurate measure, two models of entrance size are required. One is needed
 
 [the above needs consultation]
 
-### Height
+### Height of Hollow
 
 Measured to 0.5 m resolution. Height pertains to the entrance of the hollow (recall that entrance is the largest entrance).
 
@@ -277,7 +277,27 @@ This pertains to the branch that contains the entrance to the hollow.
 - 2 = secondary branch
 - etc.
 
-This variable is informed by split trunks
+This variable is informed by split trunks in the tree varaibles
+
+### Trim (hollow)
+
+[?]
+
+## Appendix B: Structure Layer: Nest-Site Measurements and Characteristics: data for Trees
+
+Some variables in this appendix are informed by some ideas about mallee trees and the diversity of other tree-forms, and their significance for tree hollow ontogeny. These ideas have been written about elsewhere.
+
+### Species
+
+To most detailed taxonomic level possible.
+
+### Height of Tree
+
+Measured to 0.5 m resolution; 1 m resolution above 3 m
+
+### Diameter at Breast Height
+
+Estimated to 0.1 m resolution. If the trunks are split (see below), measure the largest one.
 
 ### Trunk split
 
@@ -288,6 +308,41 @@ This refers to the height above the ground at which the primary trunk splits int
 - Low = <1.5 m
 - High = >1.5 m
 
+### Split Trunk Significance
+
+A Yes/No answer to the question: Are any of the trunks of similar size to the largess trunk?
+
+### Trunk Sheer
+
+A Yes/No answer to the question: has a major trunk or a major secondary branch collapsed or sheered off the tree?
+
+### Form
+
+- 1: Live Tree
+- 2: Live Tree with stag effect. This can be through die-back of the canopy, or through branch-drop which depletes the canopy coverage to the point where the tree looks stagged.
+- 3: Dead
+- 4: Advanced Dead Structure[4]
+
+See photos.
+
+### Continuous Vegetation
+
+Do the tree canopies seem connected enough for a ring-tail possum to move continuously to the tree? Yes/No.
+
+If one has to stretch the imagination, err to `No'.
+
+### Trim (tree)
+
+[?]
+
+### Fire damage and epicormic growth
+
+Write whichever apply, separated by commas. `Scar' overrides 'Scorched'.
+
+- Scar: There is a fire scar OR there is internal charcoal
+- Scorched: there evidence of past burning
+- Epicormic: The tree seems to be resprouting epicormically, or has done recently enough that this is still detectable.
+
 ---
 ## Notes
 [1] I prefer lattitude and longitude outside of scientific survey teams, because on many occasions where Eastings and Northings have been used, there have been translation issues. I have even had to deal with botched GPS data because of the conversion between these two, and that mistake originated from within an institution.
@@ -297,3 +352,5 @@ Private locations do not need to be disclosed, and these may need to use some ot
 [2] At no point anywhere in the protocol can the date be written in numbers and include the month before the day.
 
 [3] The ability to records observations about tree hollow ontogeny is one of my goals for this protocol.
+
+[4] I have transferred the complexity seen in the work on the form in _Eucalyptus regnans_ to describing the mallee habits. This is more appropriate for South Australia. However, it will be seen that the system here still matches the 'groups' of tree forms used in that work; it is just that some of the finer resolution is lost. I am adamant that 'scrags' can be described, and that is why I have included the 'Advanced Dead Structure'. For the importance of Scrags, see the Broad Thoughts and Principles notes.
