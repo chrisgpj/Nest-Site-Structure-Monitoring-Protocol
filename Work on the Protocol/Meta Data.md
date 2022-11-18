@@ -228,32 +228,38 @@ This sort of thing is very rigorous, and I am still exploring how the best way t
 
 These variables are the characteristics and measurements for tree-hollows.
 
-[Important: I have been thinking about the problem of measurements changing due to the occupant. I am uncomfortable about this, because how does one assess an unused hollow? However, to my knowledge, no-one has been mad enough to do something like relay the height of every single entrance of each size class, except for myself (I have actually done this in significant quantity; I have not only written about it). So, some things need to be simplified. Probably, I should go over this and just say 'go by the biggest entrance — entrance size is so highly-selected that this makes sense'.]
+[I have been thinking about the problem of measurements changing due to the occupant. I am uncomfortable about this, because how does one assess an unused hollow? I may have to think about some things being more general, and others dependent on use.]
 
 ### Hollow Size
 The Hollow size refers to the _largest_ entrance.
 
 If the surveyor is not sure, prefix the note with a question mark in square brackets.
+
+The categories are:
 - Small = 
 - medium =
 - large = 
 - huge = 
 
-If possible, surveyors are encouraged to measure to 0.5 cm resolution. [Even having a few nest-sites with more detailed measurements around the place would help people gain a sense of reference.] Two models of entrance size are required. One is needed for roughly circular openings. These can be modelled by the shortest widths (the constraining distance), and then the width perpendicular to this; if the entrance is round you can't go wrong. The second model is needed for fissure-like entrances. The smallest width is not constraining for these, so instead one takes the widest part of the fissure and draws an imaginary ovular entrance over it. The shortest width of that imaginary entrance is the constraining width; the second measurement is the length of the fissure.
+[These are under review]
+
+If possible, surveyors are encouraged to measure to 1 cm resolution. Even having a few nest-sites with more detailed measurements around the place would help people gain a sense of reference.
+
+For an accurate measure, two models of entrance size are required. One is needed for roughly circular openings. These can be modelled by the shortest widths (the constraining distance), and then the width perpendicular to this; if the entrance is round you can't go wrong. The second model is needed for fissure-like entrances. The smallest width is not constraining for these, so instead one takes the widest part of the fissure and draws an imaginary ovular entrance over it. The shortest width of that imaginary entrance is the constraining width; the second measurement is the length of the entire fissure. This is how I would go about it but I haven't checked other methods for a while
 
 [the above needs consultation]
 
 ### Height
 
-Measured to 0.5 m resolution. Height pertains to the entrance of the hollow.
+Measured to 0.5 m resolution. Height pertains to the entrance of the hollow (recall that entrance is the largest entrance).
 
-The variable is affected by multiple entrances.
+This variable could be affected by multiple entrances — but the main question is what to do when an occupant is using an entrance that is not the largest one.
 
 The height is given for the lowest entrance of each size class, but only when the smaller entrance is below a bigger one. If there were many entrances, but the biggest one was the lowest, then only that entrance height would be needed.
 
 ### Number of entrances
 
-The 'number of entrances' could pertain to the number large enough for the occupant. However, I am not comfortable with this as a measure, because it can change if the occupant changes, and this is something that could happen within one season. Therefore, the number of entrances for each size class is given. If many, use >3.
+Number of entrances for each size class is given. If many, use >3.
 
 ### Draughtiness
 
@@ -286,6 +292,8 @@ This refers to the height above the ground at which the primary trunk splits int
 ## Notes
 [1] I prefer lattitude and longitude outside of scientific survey teams, because on many occasions where Eastings and Northings have been used, there have been translation issues. I have even had to deal with botched GPS data because of the conversion between these two, and that mistake originated from within an institution.
 
+Private locations do not need to be disclosed, and these may need to use some other identifying name scheme as well.
+
 [2] At no point anywhere in the protocol can the date be written in numbers and include the month before the day.
 
-[3] The ability to place auxiliary notes that pertain to tree-hollows in the protocol is one of my goals.
+[3] The ability to records observations about tree hollow ontogeny is one of my goals for this protocol.
