@@ -51,7 +51,7 @@ In this section, each layer is discussed with extreme brevity, and the way they 
 - There may be some degree of cross-referencing in the layers themselves, depending on how they are being kept.
 
 ---
-## Structure Layer
+## Nest-Site Structure Layer
 **Nest-site Structure Name**<br>
 This is variable identifies nest-sites in a structured way that encourages customised names, but reduces the chance of double-up, and allows nest-sites to be grouped by location.
 
@@ -122,6 +122,36 @@ This is the entry-point of the observations into the protocol. The default is th
 
 **Nest-Site Measurements and Characteristics**<br>
 This is a group of variables, the makeup of which is determined by what type of structure the nest-site is. The list of variables to cover each possible structure is so large that I am giving it in an appendix. 
+
+## The Use of Nest-Site Structures and Breeding Success
+This layer is combined with the Nest-Site Structure Layer in the physical record-keeping, but it is a separate layer in its own right in the data.
+
+**Use of Nest-Site Structure and Breeding Success**<br>
+This variable is organised by the check-period, which is usually monthly or twice-monthly. The next piece of information is the species, if use is noted; then comes detail of the use, including breeding activity; and then the date of observation. The date of observation may be multiple; this helps to link conclusions to the survey layer. Multiple entries may be made for a check-period if a change in activity is recorded.
+
+[Compatibility with other schemes is still being clarified.]
+
+Syntax:<br>
+_Period: Species: Activity, dates._
+
+Example:
+> Early Nov: RB Lori: Occupied, P. Incubation, 13/11/22, 15/11/22 ["P." stands for "Probable" and is a standard approach in this protocol]
+> Late Nov: RB Lori: Nestlings, 17/11/22
+> Early Dec: RB Lori: Nestlings, x3, 10/12/22
+> Late Dec: RB Lori: Successful Fledlglings, x2, 20/12/22, 21/12/22
+
+The 'Activity' uses standard language that tries to be concise. With birds the language is for breeding; with other animals, fewer observations are easily made in this regard, so I am still working on that. The following is for birds
+- Occupying: Animal seen in Nest-Site Structure
+- Pair Attend: A pair is attending the hollow. This is usually linked to breeding activity.
+- Nest Building: Animal seen building a nest in the structure, or gathering material and entering structure.
+- Family Attend: specify with xNUMBER to indicate the number of individuals of each identifiable sex and age. This may indicate recently successful breeding.
+- P. Incubation: The stage of breeding where the female is sitting on eggs or very young nestlings and being fed by the male.
+- Nestlings: Nestling present and being fed by parents (indicate number with xNUMBER).
+- Fledglings: Young birds that have come into plumage (indicate number with xNUMBER).
+- Successful Fledglings: Fledglings that are flying about and can be considered juveniles (indicate number with xNUMBER).
+
+It is perfectly fine to make various notes outside of thing language. One might do so in order to clarify or provide reasoning for some number. It is simply encouraged that such notes act as a _supplement_ to the core language and numbers.
+
 
 ---
 ## Survey Layer
